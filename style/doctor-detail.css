@@ -1,0 +1,24 @@
+.details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.doctorDetails {
+    font-size: 12px !important;
+}
+
+.backbtn{
+  background-image: linear-gradient(230deg, #57E4B1 0%, #54CCBB 100%);
+  box-shadow: 0 3px 6px 0 rgba(0,0,0,0.10);
+  border-radius: 4px;
+  font-family: "GilroyBold";
+  font-size: 14px;
+  color: white !important;
+  border: 1px solid #53D6BF;
+}
+
+/* DETAILS */
+.profilepic {
+ width: 37%;
+}
