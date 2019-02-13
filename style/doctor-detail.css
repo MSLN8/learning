@@ -1,22 +1,30 @@
-.doctorDetails {
-    font-size: 12px !important;
+
+header {
+    padding: 0 1%;
 }
 
 .backbtn{
-  font-family: "GilroyBold";
-  font-size: 14px;
-  color: #53D6BF !important;
+    font-family: "GilroyBold";
+    font-size: 14px;
+    color: #53D6BF !important;
 }
 
 /* DETAILS */
 .profilepic {
- width: 40%;
- display: block;
- margin: auto;
+    width: 40%;
+    margin-left: 5.5rem;
+}
+.details {
+    width: 100%;
+    margin: 10px;
+}
+
+.doctorDetails {
+    font-size: 12px !important;
 }
 
 .validation-button{
-    margin-top: 15px;
+    margin-top: 30px;
     margin-left: 40%;
     margin-right: 50%;
     border: 3px solid #53D6BF;
@@ -33,7 +41,8 @@ table {
   }
 
 th,td {
-  text-align: center;
-  border-bottom: 1px solid #ddd;
-  padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
 }
+
