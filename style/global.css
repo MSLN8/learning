@@ -28,9 +28,11 @@
     padding: 0 5%;
   }
   
-  .logo{
-    height: auto;
-    width: 10%;
+  #Logo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width:84%;
   }
   
   h1 {
@@ -40,6 +42,38 @@
     margin-left: 2%
   }
 
+/* New nav */
+li {
+  /* display: inline; */
+  width: 50%
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f3f3f3;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  border-bottom: solid 2px #20c997;
+}
 /* DROPDOWN MENU */
 .dropbtn {
   background-color:white;
