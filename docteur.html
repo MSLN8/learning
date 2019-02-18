@@ -12,7 +12,7 @@
 
 <body>
   <header>
-    <a href="./backOffice.html" width=7% height=auto>Retour</a>
+    <a href="backOffice.html" class="previous round">&#8249;</a>
     <div id="Logo">
       <img class="logo" src="./img/Leah_logo_green.png" alt="logo" width=10% height=auto>
       <h1> Leah </h1>
@@ -20,19 +20,21 @@
   </header>
 
 
-  <article class="details">
+  <article>
     <img src="./img/rihanna.png" class="profilepic" alt="">
-    <div class=“doctorDetails”>
-      <p><b>MENARD Julie</b></p>
-      <p><b>Spécialité:</b> Généraliste</p>
-      <p><b>Adresse:</b> 341 Rue Lecourbe</p>
-      <p><b>RPPS: </b>17583473625</p>
-      <p><b>Adeli: </b>867534264</p>
-      <p><b>Prix: </b>25€</p>
+    <div class="details">
+      <h2>Julie Ménard</h2>
+      <h3> Médecin Généraliste </h3>
+    </div>
+    <p>Adresse:</p> <input type="text" placeholder="341 rue Lecourbe"/> 
+    <p>RPPS:</p> <input type="text" placeholder="17583473625"/>
+    <p>Adeli:</p> <input type="text" placeholder="867534264"/>
+    <p>Tarif standard:</p> <input type="text" placeholder="25€"/>
+    <button> Enregistrer les modifications</button>
     </div>
   </article>
-
-  <article>
+  <section>
+    <h4>Documents</h4>
     <table>
       <td>Attestation</td>
       <td>
@@ -52,10 +54,9 @@
         </td>
       </tr>
     </table>
+  </section>
 
-  </article>
-
-  <button class="validation-button"><a href="backOffice.html">Valider</a></button>
+  <button id="validation">Valider le médecin</button>
 </body>
 
 </html>

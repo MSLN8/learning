@@ -36,14 +36,14 @@ header {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  width:84%;
+  width:82%;
 }
 
 h1 {
   font-family: "GilroyBold"; 
   font-size: 36px;
   color: #272625;
-  margin-left: 2%
+  margin-left: 1%
 }
 
 /*  New nav */ 
